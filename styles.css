@@ -61,9 +61,22 @@ ul a {
 .info-section h2 {
     text-align: center;
     margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.info-images {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.info-image {
+    width: 200px;
 }
 
 .info-image img {
     width: 200px;
     height: 200px;
+    border: 5px solid #3882F6;
+    border-radius: 20px;
 }
