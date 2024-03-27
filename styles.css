@@ -3,6 +3,8 @@ html {
 }
 
 body {
+    display: flex;
+    flex-direction: column;
     margin: 0;
 }
 
@@ -20,10 +22,17 @@ body {
     font-size: 1.25rem;
 }
 
+
 .top-bottom-section {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     padding: 100px 0;
+}
+
+.top-left {
+    flex: 1;
+    max-width: 530px;
 }
 
 button.sign-up {
@@ -36,12 +45,14 @@ button.sign-up {
 
 .top-bottom-section img {
     height: 200px;
-    width: 500px;
+    width: 400px;
+    flex-shrink: 0;
 }
 
 header,
 .top-bottom-section {
-    width: 1000px;
+    max-width: 1000px;
+    width: 100%;
 }
 
 header,
@@ -78,6 +89,11 @@ ul a {
 .info-image img {
     width: 200px;
     height: 200px;
-    border: 5px solid #3882F6;
+    border: 5px solid #4f92ff;
     border-radius: 20px;
+}
+
+.info-image p {
+    margin-top: 5px;
+    text-align: center;
 }
