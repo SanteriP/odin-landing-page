@@ -94,6 +94,7 @@ ul a {
 
 .info-section {
     margin: 0 30px;
+    padding-bottom: 72px;
 }
 
 .info-section h2 {
@@ -127,4 +128,31 @@ ul a {
 .info-image p {
     margin-top: 5px;
     text-align: center;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+}
+
+.quote-area {
+    max-width: 800px;
+    margin: auto;
+    padding: 50px 30px;
+}
+
+.quote-text {
+    font-size: 34px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+    position: relative;
+    top: 25px;
+}
+
+.quotee {
+    font-size: 22px;
+    font-weight: 1000;
+    text-align: right;
+    margin-right: 30px;
+    position: relative;
 }
