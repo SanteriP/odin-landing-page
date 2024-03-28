@@ -156,3 +156,36 @@ ul a {
     margin-right: 30px;
     position: relative;
 }
+
+.action-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.action-box {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    border-radius: 6px;
+    max-width: 800px;
+    width: 100%;
+    padding: 45px 100px;
+}
+
+.action-text .action-top-text {
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+}
+
+.action-text p {
+    color: #E5E7EB;
+    margin: 5px 0 0 0;
+}
+
+.action-box .sign-up {
+    border: 2px solid white;
+}
