@@ -161,7 +161,7 @@ ul a {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 30px;
+    padding: 100px 30px;
 }
 
 .action-box {
