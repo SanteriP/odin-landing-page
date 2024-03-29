@@ -97,6 +97,10 @@ ul a {
     color: #F9FAF8;
 }
 
+ul a:hover {
+    color: #f9faf8b9;
+}
+
 .info-section {
     margin: 0 30px;
     padding-bottom: 72px;
