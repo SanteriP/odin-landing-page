@@ -123,6 +123,7 @@ ul a {
     height: 200px;
     border: 4px solid #4f92ff;
     border-radius: 20px;
+    object-fit: cover;
 }
 
 .info-image p {
