@@ -46,6 +46,11 @@ button.sign-up {
     border-radius: 8px;
 }
 
+button.sign-up:hover {
+    background-color: #5f9cff;
+    cursor: pointer;
+}
+
 .top-bottom-section img {
     height: auto;
     max-height: 250px;
